@@ -59,10 +59,10 @@ export default function Home() {
               <span className="text-xl font-bold text-white">DbCraft</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
-              <a href="#how-it-works" className="text-sm text-text-secondary hover:text-white transition-colors">How it works</a>
-              <a href="#features" className="text-sm text-text-secondary hover:text-white transition-colors">Features</a>
-              <a href="#examples" className="text-sm text-text-secondary hover:text-white transition-colors">Examples</a>
-              <a href="#pricing" className="text-sm text-text-secondary hover:text-white transition-colors">Pricing</a>
+              <a href="/dbcraft-local/how-it-works/" className="text-sm text-text-secondary hover:text-white transition-colors">How it works</a>
+              <a href="/dbcraft-local/examples/" className="text-sm text-text-secondary hover:text-white transition-colors">Examples</a>
+              <a href="/dbcraft-local/pricing/" className="text-sm text-text-secondary hover:text-white transition-colors">Pricing</a>
+              <a href="/dbcraft-local/about/" className="text-sm text-text-secondary hover:text-white transition-colors">About</a>
             </div>
             <button className="px-4 py-2 rounded-lg bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan text-sm font-medium hover:bg-accent-cyan/20 transition-all">
               Get Started
