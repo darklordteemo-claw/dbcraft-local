@@ -220,6 +220,12 @@ export default function Home() {
               </motion.div>
             ))}
           </motion.div>
+          <motion.div variants={fadeInUp} className="text-center mt-12">
+            <a href="/dbcraft-local/how-it-works/" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan hover:bg-accent-cyan/20 transition-all">
+              Learn More About How It Works
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </motion.div>
         </div>
       </section>
 
@@ -390,9 +396,15 @@ CREATE TABLE restaurants (
             <motion.h2 variants={fadeInUp} className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
               Built For Every Use Case
             </motion.h2>
-            <motion.p variants={fadeInUp} className="text-lg text-text-secondary">
+            <motion.p variants={fadeInUp} className="text-lg text-text-secondary mb-8">
               From simple apps to complex platforms
             </motion.p>
+            <motion.div variants={fadeInUp}>
+              <a href="/dbcraft-local/examples/" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan hover:bg-accent-cyan/20 transition-all">
+                View All Examples
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </motion.div>
           </motion.div>
 
           <motion.div 
@@ -437,9 +449,15 @@ CREATE TABLE restaurants (
             <motion.h2 variants={fadeInUp} className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
               Simple Pricing
             </motion.h2>
-            <motion.p variants={fadeInUp} className="text-lg text-text-secondary">
+            <motion.p variants={fadeInUp} className="text-lg text-text-secondary mb-8">
               Start free, scale as you grow
             </motion.p>
+            <motion.div variants={fadeInUp}>
+              <a href="/dbcraft-local/pricing/" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan hover:bg-accent-cyan/20 transition-all">
+                See Full Pricing Details
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </motion.div>
           </motion.div>
 
           <motion.div 
@@ -560,16 +578,16 @@ CREATE TABLE restaurants (
             <div>
               <h4 className="text-white font-semibold mb-4">Product</h4>
               <ul className="space-y-2 text-sm text-text-secondary">
-                <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Examples</a></li>
+                <li><a href="/dbcraft-local/how-it-works/" className="hover:text-white transition-colors">How It Works</a></li>
+                <li><a href="/dbcraft-local/pricing/" className="hover:text-white transition-colors">Pricing</a></li>
+                <li><a href="/dbcraft-local/examples/" className="hover:text-white transition-colors">Examples</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Changelog</a></li>
               </ul>
             </div>
             <div>
               <h4 className="text-white font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-sm text-text-secondary">
-                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+                <li><a href="/dbcraft-local/about/" className="hover:text-white transition-colors">About</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
