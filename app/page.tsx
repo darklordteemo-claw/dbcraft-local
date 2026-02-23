@@ -560,53 +560,91 @@ CREATE TABLE restaurants (
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-            <div className="md:col-span-2">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-cyan to-accent-purple flex items-center justify-center">
-                  <Database className="w-5 h-5 text-white" />
-                </div>
-                <span className="text-xl font-bold text-white">DbCraft</span>
-              </div>
-              <p className="text-text-secondary text-sm max-w-xs">
-                AI-powered database schema generation for modern developers. 
-                Ship faster, build better.
-              </p>
+      <footer className="py-16 border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* Logo */}
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-accent-cyan to-accent-purple flex items-center justify-center">
+              <Database className="w-6 h-6 text-white" />
             </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Product</h4>
-              <ul className="space-y-2 text-sm text-text-secondary">
-                <li><a href="/dbcraft-local/how-it-works/" className="hover:text-white transition-colors">How It Works</a></li>
-                <li><a href="/dbcraft-local/pricing/" className="hover:text-white transition-colors">Pricing</a></li>
-                <li><a href="/dbcraft-local/examples/" className="hover:text-white transition-colors">Examples</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Changelog</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-sm text-text-secondary">
-                <li><a href="/dbcraft-local/about/" className="hover:text-white transition-colors">About</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-              </ul>
-            </div>
+            <span className="text-2xl font-bold text-white">DbCraft</span>
           </div>
-          <div className="flex flex-col sm:flex-row items-center justify-between pt-8 border-t border-white/5">
-            <p className="text-sm text-text-secondary">
-              © 2024 DbCraft. All rights reserved.
-            </p>
-            <div className="flex items-center gap-4 mt-4 sm:mt-0">
-              <a href="#" className="text-text-secondary hover:text-white transition-colors">
-                <Github className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-text-secondary hover:text-white transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-            </div>
+          
+          {/* Tagline */}
+          <p className="text-text-secondary mb-8 max-w-md mx-auto">
+            AI-powered database schema generation for modern developers
+          </p>
+          
+          {/* Navigation Buttons - Row 1 */}
+          <div className="flex flex-wrap justify-center gap-3 mb-3">
+            <a 
+              href="/dbcraft-local/how-it-works/" 
+              className="px-5 py-2.5 rounded-lg bg-bg-surface border border-white/10 text-sm text-white hover:border-accent-cyan/50 hover:bg-bg-elevated transition-all"
+            >
+              How It Works
+            </a>
+            <a 
+              href="/dbcraft-local/examples/" 
+              className="px-5 py-2.5 rounded-lg bg-bg-surface border border-white/10 text-sm text-white hover:border-accent-cyan/50 hover:bg-bg-elevated transition-all"
+            >
+              Examples
+            </a>
+            <a 
+              href="/dbcraft-local/pricing/" 
+              className="px-5 py-2.5 rounded-lg bg-bg-surface border border-white/10 text-sm text-white hover:border-accent-cyan/50 hover:bg-bg-elevated transition-all"
+            >
+              Pricing
+            </a>
+            <a 
+              href="/dbcraft-local/about/" 
+              className="px-5 py-2.5 rounded-lg bg-bg-surface border border-white/10 text-sm text-white hover:border-accent-cyan/50 hover:bg-bg-elevated transition-all"
+            >
+              About
+            </a>
           </div>
+          
+          {/* Navigation Buttons - Row 2 */}
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
+            <a 
+              href="#" 
+              className="px-5 py-2.5 rounded-lg bg-bg-surface border border-white/10 text-sm text-text-secondary hover:text-white hover:border-accent-cyan/50 hover:bg-bg-elevated transition-all"
+            >
+              Blog
+            </a>
+            <a 
+              href="#" 
+              className="px-5 py-2.5 rounded-lg bg-bg-surface border border-white/10 text-sm text-text-secondary hover:text-white hover:border-accent-cyan/50 hover:bg-bg-elevated transition-all"
+            >
+              Contact
+            </a>
+            <a 
+              href="#" 
+              className="px-5 py-2.5 rounded-lg bg-bg-surface border border-white/10 text-sm text-text-secondary hover:text-white hover:border-accent-cyan/50 hover:bg-bg-elevated transition-all"
+            >
+              Changelog
+            </a>
+          </div>
+          
+          {/* Social Icons */}
+          <div className="flex justify-center gap-4 mb-8">
+            <a 
+              href="#" 
+              className="w-10 h-10 rounded-lg bg-bg-surface border border-white/10 flex items-center justify-center text-text-secondary hover:text-white hover:border-accent-cyan/50 transition-all"
+            >
+              <Github className="w-5 h-5" />
+            </a>
+            <a 
+              href="#" 
+              className="w-10 h-10 rounded-lg bg-bg-surface border border-white/10 flex items-center justify-center text-text-secondary hover:text-white hover:border-accent-cyan/50 transition-all"
+            >
+              <Twitter className="w-5 h-5" />
+            </a>
+          </div>
+          
+          {/* Copyright */}
+          <p className="text-sm text-text-secondary">
+            © 2024 DbCraft. All rights reserved.
+          </p>
         </div>
       </footer>
     </main>
