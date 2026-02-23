@@ -190,7 +190,7 @@ export default function HowItWorks() {
       <footer className="py-8 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-text-secondary text-sm">
-            © 2024 DbCraft. Built with AI for developers.
+            © 2026 DbCraft. Built with AI for developers.
           </p>
         </div>
       </footer>

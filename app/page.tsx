@@ -643,7 +643,7 @@ CREATE TABLE restaurants (
           
           {/* Copyright */}
           <p className="text-sm text-text-secondary">
-            © 2024 DbCraft. All rights reserved.
+            © 2026 DbCraft. All rights reserved.
           </p>
         </div>
       </footer>

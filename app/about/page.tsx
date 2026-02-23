@@ -236,7 +236,7 @@ export default function About() {
       <footer className="py-8 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-text-secondary text-sm">
-            © 2024 DbCraft. Built with ❤️ and AI.
+            © 2026 DbCraft. Built with ❤️ and AI.
           </p>
         </div>
       </footer>
